@@ -23,13 +23,13 @@ mvn package
 ## Running
 
 ```bash
-java -jar target/quartz-mcp-server-1.0.0.jar
+java -jar target/quartz-mcp-server-0.1.0.jar
 ```
 
 Or run the shaded JAR:
 
 ```bash
-java -jar target/quartz-mcp-server-1.0.0-shaded.jar
+java -jar target/quartz-mcp-server-0.1.0-shaded.jar
 ```
 
 ## Amazon Q Developer Configuration
@@ -41,13 +41,13 @@ To use this MCP server with Amazon Q Developer, add the following configuration 
     "mcpServers": {
         "quartz": {
             "command": "java",
-            "args": ["-jar", "path/to/quartz-mcp-server-1.0.0.jar"]
+            "args": ["-jar", "path/to/quartz-mcp-server-0.1.0.jar"]
         }
     }
 }
 ```
 
-Replace `path/to/quartz-mcp-server-1.0.0.jar` with the actual path to your built JAR file.
+Replace `path/to/quartz-mcp-server-0.1.0.jar` with the actual path to your built JAR file.
 
 ## Tool: check_cron_validity
 
