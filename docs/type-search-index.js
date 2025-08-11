@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"io.github.grokify.quartzmcp","l":"CronValidationTool"},{"p":"io.github.grokify.quartzmcp","l":"QuartzMcpServer"}];updateSearchResults();
