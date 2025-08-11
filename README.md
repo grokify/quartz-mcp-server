@@ -37,9 +37,9 @@ Or run the shaded JAR:
 java -jar target/quartz-mcp-server-0.1.0-shaded.jar
 ```
 
-## Amazon Q Developer Configuration
+## AI Assistant Configuration
 
-To use this MCP server with Amazon Q Developer, add the following configuration to your MCP settings:
+To use this MCP server with popular AI assistants, add the following configuration to your MCP settings:
 
 ```json
 {
