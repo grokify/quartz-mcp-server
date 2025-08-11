@@ -96,7 +96,3 @@ This server uses Quartz cron expressions which support:
 - Month (1-12 or JAN-DEC)
 - Day of week (1-7 or SUN-SAT, where 1=Sunday)
 - Year (optional, 1970-2099)
-
-## License
-
-MIT License
