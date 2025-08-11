@@ -116,5 +116,5 @@ jobs:
       uses: actions/upload-artifact@v4
       if: always()
       with:
-        name: spotbugs-report
+        name: spotbugs-report-jdk${{ matrix.java-version }}
         path: target/spotbugsXml.xml
