@@ -23,7 +23,7 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     
     - name: Set up JDK ${{ matrix.java-version }}
       uses: actions/setup-java@v5
@@ -69,7 +69,7 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     
     - name: Run Semgrep
       run: |
@@ -91,7 +91,7 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     
     - name: Set up JDK ${{ matrix.java-version }}
       uses: actions/setup-java@v5
