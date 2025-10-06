@@ -42,7 +42,7 @@
 					mcp-bom
 				</artifactId>
 				<version>
-					0.12.1
+					0.14.0
 				</version>
 				<type>
 					pom
